@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="assets/css/superior.css">
     <link rel="stylesheet" href="assets/css/grade.css">
     <link rel="stylesheet" href="assets/css/inferior.css">
+    <link rel="stylesheet" href="assets/css/grade_modal.css"> 
     <script src="assets/lista_disciplinas/disciplinas.js"></script>
     <script src="assets/js/superior.js" defer></script>
     <script src="assets/js/grade.js" defer></script>
+    <script src="assets/js/grade_modal.js" defer></script>
 </head>
 <body>
     <div class="secao superior">
@@ -60,6 +62,54 @@
             <!-- Linhas da Tabela -->
             <!-- As linhas serão adicionadas dinamicamente pelo JavaScript -->
         </table>
+
+        <!-- Modal que será exibido ao apertar no botão grade-info -->
+        <div id="modal-grade" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="material-icons" id="turno-info">
+                        wb_sunny
+                    </i> <span class="modal-turno">Manhã</span>
+                </div>
+                <div class="modal-body">
+                    <!-- tabela que explica os horários da Unifor -->
+                    <table>
+                        <tr>
+                            <th>Letra</th>
+                            <th>Horário</th>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>7h30 às 8h20</td>
+                        </tr>
+                        <tr>
+                            <td>B</td>
+                            <td>8h20 às 9h10</td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>9h30 às 10h20</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>10h20 às 11h10</td>
+                        </tr>
+                        <tr>
+                            <td>E</td>
+                            <td>11h20 às 12h10</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>12h10 às 13h</td>
+                        </tr>
+                    </table>                    
+                </div>
+                <div class="modal-footer">
+                    <button id="fechar-modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
     </div>
     
 

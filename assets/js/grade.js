@@ -36,6 +36,7 @@ function exibirGradeManha(){
     </span> Manhã
 `;
     construirGrade();
+    mudar_turno_modal();
     // TODO: lógica para buscar os horários da manhã
 }
 
@@ -49,6 +50,7 @@ function exibirGradeTarde(){
     </span> Tarde
 `;
     construirGrade();
+    mudar_turno_modal();
     // TODO: lógica para buscar os horários da tarde
 }
 
@@ -62,10 +64,9 @@ function exibirGradeNoite(){
     </span> Noite
 `;
     construirGrade();
+    mudar_turno_modal();
     // TODO: lógica para buscar os horários da noite
 }
-
-let grade_info = document.getElementById('grade-info');
 
 document.addEventListener('DOMContentLoaded', function() {
     exibirGradeManha();
@@ -75,8 +76,4 @@ document.addEventListener('DOMContentLoaded', function() {
         else if (turno === 1) exibirGradeNoite();
         else exibirGradeManha();
     });
-
-    grade_info.addEventListener('click', function() {
-
-    })
 });
