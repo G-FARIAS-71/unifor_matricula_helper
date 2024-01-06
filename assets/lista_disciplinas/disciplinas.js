@@ -1,19 +1,31 @@
 const disciplinas = [
     {
-        "nome" : "Programação Funcional",
-        "horario" : "Segunda 10h-12h",
+        "nome" : "Programação funcional",
+        "horario" : "",
         "docente" : null,
         "sala" : null
     },
     {
-        "nome": "Sistema Operacional",
-        "horario": "Quarta 9h-11h",
+        "nome": "Sistema operacional",
+        "horario": "",
         "docente": null,
         "sala": null
     },
     {
-        "nome": "Grafos",
-        "horario": "Terça 7h-9h",
+        "nome": "Resolução com grafos",
+        "horario": "",
+        "docente": null,
+        "sala": null
+    },
+    {
+        "nome": "Gerenciamento de projetos",
+        "horario": "",
+        "docente": null,
+        "sala": null
+    },
+    {
+        "nome": "Modelagem em prog matemática",
+        "horario": "",
         "docente": null,
         "sala": null
     }

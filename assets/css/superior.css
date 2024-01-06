@@ -1,0 +1,38 @@
+.secao.superior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao.superior h1 {
+    margin-bottom: 15px;
+}
+
+.disciplina {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: var(--cor-fundo-principal);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.disciplina span {
+    font-weight: bold;
+}
+
+.disciplina input {
+    border: 1px solid var(--cor-fundo-superior-inferior-dark);
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0 20px;
+    width: 90%;
+}
+
+.secao.superior button:hover {
+    cursor: pointer;
+}

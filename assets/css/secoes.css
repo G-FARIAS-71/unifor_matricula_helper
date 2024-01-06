@@ -13,17 +13,17 @@ body {
     padding: 10px;
 }
 
-.superior {
+.secao.superior {
     height: 20%;
     background-color: var(--cor-fundo-superior-inferior);
     color: var(--cor-texto-superior-inferior);
 }
 
-.grade {
+.secao.grade {
     height: 75%;
 }
 
-.inferior {
+.secao.inferior {
     height: 5%;
     background-color: var(--cor-fundo-superior-inferior);
     color: var(--cor-texto-superior-inferior);
