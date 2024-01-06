@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-texto-principal);
+}
+
+.secao {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.superior {
+    height: 20%;
+    background-color: var(--cor-fundo-superior-inferior);
+    color: var(--cor-texto-superior-inferior);
+}
+
+.grade {
+    height: 75%;
+}
+
+.inferior {
+    height: 5%;
+    background-color: var(--cor-fundo-superior-inferior);
+    color: var(--cor-texto-superior-inferior);
+    position: fixed;
+    bottom: 0;
+}

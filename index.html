@@ -6,27 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
     <title>Planejamento de Aulas - Unifor</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="disciplinas.js"></script>
-    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/superior.css">
+    <link rel="stylesheet" href="assets/css/grade.css">
+    <link rel="stylesheet" href="assets/css/inferior.css">
+    <script src="assets/lista_disciplinas/disciplinas.js"></script>
+    <script src="assets/js/superior.js" defer></script>
+    <script src="assets/js/grade.js" defer></script>
 </head>
 <body>
-    <div class="secao-superior">
-        <h1>Disciplinas Oferecidas</h1>
+    <div class="secao superior">
+        <h1>
+            Disciplinas Oferecidas
+        </h1>
         <div id="lista-disciplinas">
-            <!-- As disciplinas serão adicionadas aqui pelo JavaScript -->
+            <!-- As disciplinas serão adicionadas aqui pelo superior.js -->
         </div>
     </div>    
 
-    <div class="secao-media">
-        <!-- Grade de horários -->
-        <h2>Grade de Horários</h2>
-        <!-- Estrutura da grade de horários -->
-    </div>
+    <div class="secao grade">
+        <div>
+            <i class="material-icons" id="grade-info">
+                info
+            </i>
 
-    <div class="secao-inferior">
+            <h2>
+                Grade de Horários
+            </h2>
+
+            </button>
+            <button id="turno-btn">
+                <span>
+                    <i class="material-icons">
+                        wb_sunny
+                    </i>
+                </span> Manhã
+            </button>
+        </div>
+        <table id="grade-horarios">
+            <!-- Cabeçalho da Tabela -->
+            <tr>
+                <th></th>
+                <th>Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sab</th>
+            </tr>
+            <!-- Linhas da Tabela -->
+            <!-- As linhas serão adicionadas dinamicamente pelo JavaScript -->
+        </table>
+    </div>
+    
+
+    <div class="secao inferior">
         <!-- Copyright -->
-        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+        <p>&copy; 2024 G-FARIAS-71. Todos os direitos reservados.</p>
     </div>
 </body>
 </html>

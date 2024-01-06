@@ -1,0 +1,62 @@
+.secao.grade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.secao.grade h2,
+#grade-info, 
+#turno-btn {
+    margin: 0 2%;
+}
+
+.secao.grade h2 {
+    margin: 2px 0;
+}
+
+#turno-btn .material-icons {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.secao.grade > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#grade-horarios {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 5%;
+}
+
+#grade-horarios th, #grade-horarios td {
+    border: 1px solid var(--cor-fundo-superior-inferior);
+    padding: 8px;
+    text-align: center;
+}
+
+#grade-horarios th {
+    background-color: var(--cor-fundo-superior-inferior);
+    color: var(--cor-texto-superior-inferior);
+}
+
+#grade-horarios td {
+    background-color: var(--cor-fundo-grade-td);
+}
+
+#turno-btn {
+    padding: 10px 20px;
+    background-color: var(--cor-fundo-superior-inferior);
+    color: var(--cor-texto-superior-inferior);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#turno-btn:hover {
+    background-color: var(--cor-fundo-superior-inferior-dark);
+}
